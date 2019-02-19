@@ -1,0 +1,157 @@
+
+h1 {
+  color: white;
+  letter-spacing: 0.1em;
+  background-color: #1d2731;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 5px 0px black;
+}
+h1 div {
+  padding-left: 100px;
+  text-align: left;
+}
+
+h2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  padding-right:100px;
+}
+body {
+  width: auto;
+  background-color: #328cc1;
+}
+main {
+  background-color: #ffffff;
+  padding-top: 0px;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  display: block;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d2731;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+footer {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 20px;
+  background-color: #286da8;
+  color: white;
+}
+footer a {
+  color: #1d2731;
+}
+table {
+  border: 2px solid black;
+  width: 100%;
+
+  background-color: white;
+}
+tr {
+  border: 2px solid black;
+  color: black;
+}
+th {
+  border: 2px solid black;
+}
+tr:nth-of-type(odd) {
+  background: #4d88f2;
+}
+form {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.active {
+  background-color: #d9b310;
+}
+.btnstyle {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+
+#wrapper {
+  background-image: linear-gradient(#fff, #328cc1, #0b3c5d);
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #000033;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 80%;
+  box-shadow: 3px 3px 5px 0px black;
+}
+#reimg1{
+	width: 150px;
+	background-color: red;
+	background-image: url("placeholder");
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#reimg2{
+	width: auto;
+	background-color: red;
+	background-image: url("placeholder");
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#reimg3{
+	width: auto;
+	background-color: red;
+	background-image: url("placeholder");
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#reimg4{
+	width: auto;
+	background-color: red;
+	background-image: url("placeholder");
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#reimg5{
+	width: auto;
+	background-color: red;
+	background-image: url("placeholder");
+	background-size: 100% 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
