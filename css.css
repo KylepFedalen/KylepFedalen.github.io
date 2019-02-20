@@ -30,8 +30,8 @@ main {
   background-color: #ffffff;
   padding-top: 0px;
 
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: block;
   color: white;
 }
@@ -63,8 +63,8 @@ li a:hover:not(.active) {
 }
 footer {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding-bottom: 20px;
   background-color: #286da8;
   color: white;
@@ -115,43 +115,53 @@ form {
   box-shadow: 3px 3px 5px 0px black;
 }
 #reimg1{
-	width: 150px;
-	background-color: red;
-	background-image: url("placeholder");
+	width: auto;
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #reimg2{
 	width: auto;
-	background-color: red;
-	background-image: url("placeholder");
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #reimg3{
 	width: auto;
-	background-color: red;
-	background-image: url("placeholder");
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #reimg4{
 	width: auto;
-	background-color: red;
-	background-image: url("placeholder");
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #reimg5{
 	width: auto;
-	background-color: red;
-	background-image: url("placeholder");
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
