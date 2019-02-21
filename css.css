@@ -11,16 +11,13 @@ h1 {
   padding-bottom: 10px;
   box-shadow: 3px 3px 5px 0px black;
 }
-h1 div {
-  padding-left: 100px;
-  text-align: left;
-}
+
 
 h2 {
   padding-top: 0px;
   padding-bottom: 0px;
   text-align: center;
-  padding-right:100px;
+  
 }
 body {
   width: auto;
@@ -32,7 +29,7 @@ main {
 
   margin-left: 0px;
   margin-right: 0px;
-  display: block;
+  
   color: white;
 }
 ul {
@@ -48,30 +45,20 @@ li {
 }
 
 li a {
+  width:100%;
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
 li a:hover:not(.active) {
   background-color: #111;
 }
-footer {
-  text-align: center;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-bottom: 20px;
-  background-color: #286da8;
-  color: white;
-}
-footer a {
-  color: #1d2731;
-}
+
 table {
   border: 2px solid black;
   width: 100%;
@@ -88,21 +75,31 @@ th {
 tr:nth-of-type(odd) {
   background: #4d88f2;
 }
-form {
-  margin-top: 0px;
-  margin-bottom: 0px;
+footer {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 20px;
+  background-color: #286da8;
+  color: white;
 }
+footer a {
+  color: #1d2731;
+}
+
 .active {
   background-color: #d9b310;
 }
-.btnstyle {
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
+.center{
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.mainstyle{
+  padding-right:10px;
+  padding-left:10px;
+  height:auto;
+  background-image:linear-gradient(to bottom, #286DA8, #0B3C5D,#0B3C5D,#286DA8);	
+}
 
 #wrapper {
   background-image: linear-gradient(#fff, #328cc1, #0b3c5d);
@@ -115,53 +112,89 @@ form {
   box-shadow: 3px 3px 5px 0px black;
 }
 #reimg1{
-	width: auto;
+	width: 10em;
+	height:10em;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
 	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#reimg2{
-	width: auto;
-	max-width: 20em;
-	max-height: 20em;
-	background-color: blue;
-	background-image: url("placehold.png");
-	background-size: 100% 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#reimg3{
-	width: auto;
-	max-width: 20em;
-	max-height: 20em;
-	background-color: blue;
-	background-image: url("placehold.png");
-	background-size: 100% 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#reimg4{
-	width: auto;
-	max-width: 20em;
-	max-height: 20em;
-	background-color: blue;
-	background-image: url("placehold.png");
-	background-size: 100% 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#reimg5{
-	width: auto;
-	max-width: 20em;
-	max-height: 20em;
-	background-color: blue;
-	background-image: url("placehold.png");
-	background-size: 100% 100%;
-	margin-left: auto;
-	margin-right: auto;
 	
 }
+#reimg2{
+	width: 10em;
+	height:10em;
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
+	background-size: 100% 100%;
+}
+#reimg3{
+	width: 10em;
+	height:10em;
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
+	background-size: 100% 100%;
+}
+#reimg4{
+	width: 10em;
+	height:10em;
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
+	background-size: 100% 100%;
+}
+#reimg5{
+	width: 10em;
+	height:10em;
+	max-width: 20em;
+	max-height: 20em;
+	background-color: blue;
+	background-image: url("placehold.png");
+	background-size: 100% 100%;
+	
+	
+}
+@media (max-width: 750px){
+	main{
+		width:100%;
+	}
+	h1{
+		display:none;
+	}
+	h2{
+		box-shadow:none;
+	}
+	ul{
+		display:block;
+	}
+	body{
+		display:block;
+	}
+	ul li{
+		display:none;
+	}
+	
+	table th tr{
+		width:100%;
+		display:inline;
+		
+	}
+	th a{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	footer{
+		display:none;
+	}
+	#wraper{
+		display:none;
+	}
+
+	
+}
+	
