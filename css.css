@@ -159,7 +159,7 @@ footer a {
 	
 	
 }
-@media (max-width: 750px){
+@media mobile(max-width: 750px){
 	main{
 		width:100%;
 	}
