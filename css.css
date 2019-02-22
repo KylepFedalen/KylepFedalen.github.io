@@ -186,7 +186,6 @@ footer a {
 	}
 	
 	table {
-		
 		width:auto;
 		height:auto;
 		
@@ -217,7 +216,10 @@ footer a {
 	#wraper{
 		display:none;
 	}
-	
+	.center{
+		margin-left:0;
+		margin-right:0;
+	}
 	.mainstyle{
 		width:100%;
 		padding-right:0em;
