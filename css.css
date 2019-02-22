@@ -70,6 +70,7 @@ tr {
   color: black;
 }
 th {
+	width:auto;
   border: 2px solid black;
 }
 tr:nth-of-type(odd) {
@@ -79,7 +80,8 @@ footer {
   text-align: center;
   margin-left: 0px;
   margin-right: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 1em;
+  padding-top: 1em;
   background-color: #286da8;
   color: white;
 }
@@ -90,14 +92,15 @@ footer a {
 .active {
   background-color: #d9b310;
 }
-.center{
-  margin-left: auto;
-  margin-right: auto;
+.center {
+    margin-left: auto;
+	margin-right:auto;
+    
+
 }
 .mainstyle{
-  padding-right:10px;
-  padding-left:10px;
-  height:auto;
+  padding-right:3em;
+  padding-left:3em;
   background-image:linear-gradient(to bottom, #286DA8, #0B3C5D,#0B3C5D,#286DA8);	
 }
 
@@ -105,15 +108,17 @@ footer a {
   background-image: linear-gradient(#fff, #328cc1, #0b3c5d);
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   border-color: #000033;
   min-width: 960px;
   max-width: 2048px;
-  width: 80%;
+  width: 95%;
   box-shadow: 3px 3px 5px 0px black;
 }
 #reimg1{
-	width: 10em;
-	height:10em;
+	height:5em;
+	width:auto;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
@@ -122,8 +127,8 @@ footer a {
 	
 }
 #reimg2{
-	width: 10em;
-	height:10em;
+	height:5em;
+	width:auto;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
@@ -131,8 +136,8 @@ footer a {
 	background-size: 100% 100%;
 }
 #reimg3{
-	width: 10em;
-	height:10em;
+	height:5em;
+	width:auto;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
@@ -140,8 +145,8 @@ footer a {
 	background-size: 100% 100%;
 }
 #reimg4{
-	width: 10em;
-	height:10em;
+	height:5em;
+	width:auto;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
@@ -149,8 +154,8 @@ footer a {
 	background-size: 100% 100%;
 }
 #reimg5{
-	width: 10em;
-	height:10em;
+	height:5em;
+	width:auto;
 	max-width: 20em;
 	max-height: 20em;
 	background-color: blue;
@@ -182,24 +187,22 @@ footer a {
 	
 	table {
 		
-		width:90%;
-		height:20em;
-		margin-right:3em;
-		margin-left:3em;
+		width:auto;
+		height:auto;
 		
 	}
 	
 	tr{
-    border:none;
-		width:20em;
-		height:20em;		
+		border:none;
+		width:auto;
+		height:auto;		
 		
 	}
 	th {
-		border:none;
-		width:20em;
-		height:20em;
-		display:inline;
+		
+		width:auto;
+		height:auto;
+		
 	}
 	th a{
 		width:100%;
@@ -216,6 +219,11 @@ footer a {
 	}
 	.mainstyle{
 		width:100%;
+		padding-right:0em;
+		padding-left:0em;
+	}
+	.resize{
+		height:2em;
 	}
 	
 
