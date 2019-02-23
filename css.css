@@ -124,6 +124,9 @@ main{
   padding-right:3em;
   
 }
+#thwidth{
+	min-width:240px;
+}
 #wrapper {
     position:fixed;
     top:0px;
@@ -245,7 +248,9 @@ main{
 	.btnstyle {
 		padding:0;
 	}
-	
+	#thwidth{
+		min-width:0;
+	}
 	
 
 	
