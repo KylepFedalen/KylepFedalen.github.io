@@ -62,7 +62,9 @@ li a:hover {
 li a:hover:not(.active) {
   background-color: #111;
 }
-
+.p{
+	text-align:center;
+}
 .boxholder{
 	max-height:100%;
 	width:auto;
@@ -71,7 +73,7 @@ li a:hover:not(.active) {
 }
 .box{
 	margin:1em;
-	width:auto;
+	width:30%;
 	background-color:darkblue;
 	height:15em;
 	float:left;
@@ -79,7 +81,7 @@ li a:hover:not(.active) {
 	
 }
 .img{
-	height:8em;
+	height:50%;
 	width:auto;
 	max-width:100%;
 	max-height:100%;
@@ -160,6 +162,7 @@ main{
 		margin:.2em;
 		width:25%;
 		
+		
 	}
 	
 	
@@ -203,15 +206,19 @@ main{
 		float:left;
 	}
 	.img{
-		height:3em;
-		width:3em;
+		width:15%;
+		height:auto;
 		float:right;
-		margin-left:10%;
+		
 	
     }
+	.boxholder{
+		height:65%;
+	}
 	.box{
-		height:5em;
+		height:25%;
 		width:100%;
+		
 
 	}
 	.center {
@@ -221,7 +228,7 @@ main{
     
 	}
 	.btnstyle {
-		padding:8px;
+		
 	}	
 }
 @media only screen and (max-width: 250px){
