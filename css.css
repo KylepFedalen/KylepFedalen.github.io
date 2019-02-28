@@ -84,18 +84,7 @@ th {
 tr:nth-of-type(odd) {
   background: #4d88f2;
 }
-footer {
-  text-align: center;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  
-  color: white;
-}
-footer a {
-  color: #1d2731;
-}
+
 
 .active {
   background-color: #d9b310;
@@ -122,9 +111,7 @@ main{
   padding-right:3em;
   
 }
-#thwidth{
-	min-width:240px;
-}
+
 #wrapper {
     position:fixed;
     top:0px;
@@ -264,9 +251,6 @@ main{
 		
 	}
 	th a{
-	}
-	footer,footer a, footer p{
-		display: none;
 	}
 	#wraper{
 		padding-left:0;
