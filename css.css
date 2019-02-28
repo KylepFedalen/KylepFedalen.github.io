@@ -193,7 +193,25 @@ main{
 	
 	
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 64em){
+	h1{
+		display:none;
+	}
+	main{
+		padding-left:0;
+		padding-right:0;
+	}
+	ul li{
+		display:none;
+	}
+	.center {
+    margin: auto;
+	width: 70%;
+    
+    
+	}
+}
+@media only screen and (max-width: 37.5em){
   
     main{
 		padding-left:0;
@@ -219,6 +237,7 @@ main{
 	}
 	
 	table {
+		
 	}
 	
 	tr{
@@ -241,7 +260,13 @@ main{
 		margin:0;
 		box-shadow:none;
 	}
-	
+
+	.center {
+    margin: auto;
+	width: 100%;
+    
+    
+	}
 	.btnstyle {
 		padding:0;
 	}
