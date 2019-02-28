@@ -190,8 +190,11 @@ main{
 	background-color: blue;
 	background-image: url("placehold.png");
 	background-size: 100% 100%;
-	
-	
+}
+.qrimg{
+	height:5em;
+	width:5em;
+	margin-left:45%;
 }
 @media only screen and (max-width: 64em){
 	h1{
@@ -207,9 +210,12 @@ main{
 	.center {
     margin: auto;
 	width: 70%;
-    
-    
 	}
+	.qrimg{
+	height:10em;
+	width:10em;
+	margin-left:45%;
+    }
 }
 @media only screen and (max-width: 37.5em){
   
@@ -260,7 +266,11 @@ main{
 		margin:0;
 		box-shadow:none;
 	}
-
+	.qrimg{
+		height:10em;
+		width:10em;
+		margin-left:30%;
+    }
 	.center {
     margin: auto;
 	width: 100%;
