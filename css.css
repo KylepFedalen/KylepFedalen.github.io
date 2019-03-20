@@ -33,19 +33,34 @@ body{
   height: 100%;
   
 }
-#divcon{
+.divcon{
 	background-color:#3861B8;
 	margin-left:3em;
 	margin-right:3em;
-	margin-bottom:.5em;
+	border-style: solid;
+	border-color: black;
 }
 .imgsize{
 	max-height:8em;
 }
+@media (mim-width: 401px){
+	body{
+		background-color:red;
+	}
+	#wrapper{
+		
+	}
+	.resize{
+	  margin-left:auto;
+	  margin-right:auto;
+	  padding-left:0px;
+	  padding-right:0px;
+}
+}
 
 /* mobile */
 @media (max-width: 400px) {
-	#resize{
+	.resize{
 	  margin-left:0px;
 	  margin-right:0px;
 	  padding-left:0px;
@@ -54,7 +69,7 @@ body{
 	.imgsize{
 		max-height:4em;
 	}
-	#divcon{
+	.divcon{
 		padding-left:0;
 		padding-right:0;
 		margin-left:0px;
@@ -67,10 +82,13 @@ body{
 	.imgsize{
 		max-height:4em;
 	}
-	#divcon{
+	
+	.divcon{
 		padding-left:0;
 		padding-right:0;
 		margin-left:0px;
 		margin-right:0px;
+		border-style: solid;
+		border-color: black;
 	}
 }
