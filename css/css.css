@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+iframe{
+    border:none;
+}
+
+
+
+body{
+	
+	background-image:linear-gradient(to bottom, #286DA8, #0B3C5D,#0B3C5D,#286DA8);
+}
+
+#wrapper {
+  
+}
+.divcon{
+	background-color:#3861B8;
+	
+	border-style: solid;
+	border-color: black;
+}
+@media (max-width: 750px){
+	.imgsize{
+	max-height:4em;
+	}
+	.divcon{
+		min-width:255px;
+	}
+}
+
+@media (min-width: 750px) {
+	.divcon{
+		margin-left:3em;
+		margin-right:3em;
+	}
+	.imgsize{
+	max-height:8em;
+}
+	
+}
+
+
+
