@@ -1,0 +1,50 @@
+
+SASS SYNTAX
+$font-stack:    Helvetica, sans-serif
+$randcol: random(100)
+$primary-color: #000
+$bright-red-color: #EC1D1D
+$dark-green-color: #124b0c
+
+$rand: random(10)
+$firstnum: 5
+$secondnum: 5
+$sum: $firstnum * $secondnum
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+h1
+  font-size: percentage(.5)
+h2
+  color: makedarker($bright-red-color,20%)
+
+=transform($property)
+  -webkit-transform: $property
+  -ms-transform: $property
+  transform: $property
+
+.box
+  +transform(rotate(10deg))
+
+@function makedarker($color, $amount)
+  @return darken($color, $amount)
+
+@function makelighter($color, $amount)
+  @return lighten($color, $amount)
+  
+
+
+
+.col1
+  padding: $sum+px
+  background-color: makedarker($dark-green-color,0%)
+.col2
+  padding: $sum+px
+  background-color: makelighter($dark-green-color,20%)
+.col3
+  padding: $sum+px
+  background-color: makelighter($dark-green-color,30%)
+
+ 
+  

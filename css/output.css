@@ -1,0 +1,26 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #000; }
+
+h1 {
+  font-size: 50%; }
+
+h2 {
+  color: makedarker(#EC1D1D, 20%); }
+
+.box {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg); }
+
+.col1 {
+  padding: 25px;
+  background-color: #124b0c; }
+
+.col2 {
+  padding: 25px;
+  background-color: #27a31a; }
+
+.col3 {
+  padding: 25px;
+  background-color: #32cf21; }
