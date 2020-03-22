@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="excss/BootCSS.css">
+	<link rel="stylesheet" href="excss/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="BootIndex.html">Quakes</a>
+	  <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#pg1">What are they?</a></li>
+        <li><a href="#pg2">Risk?</a></li>
+        <li><a href="#pg3">Damages</a></li>
+		<li><a href="#pg4">What to do</a></li>
+		<li><a href="#pg5">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="pg1">
+<div class="container-fluid page-1 text-center">
+  <h3 class="margin">What are they?</h3>
+  <img src="imgs/szgraph.jpg" class="img-responsive img-circle margin" style="display:inline" alt="sizemagraph" width="350" height="350">
+  <p>An earthquake (also known as a quake, tremor or temblor) is the shaking of the surface of the Earth, resulting from the sudden release of energy in the Earth's lithosphere that creates seismic waves. Earthquakes can range in size from those that are so weak that they cannot be felt to those violent enough to toss people around and destroy whole cities. The seismicity, or seismic activity, of an area is the frequency, type and size of earthquakes experienced over a period of time. The word tremor is also used for non-earthquake seismic rumbling.</p><br>- Wikipedia
+</div>
+</section>
+
+<section id="pg2">
+<div class="container-fluid page-2 text-center">
+  <h3 class="margin">What is the risk of being caught in an Earthquake?</h3>
+  <img src="imgs/eq_hazard.gif" class="img-responsive margin" style="display:inline" alt="heatmap" width="350" height="350">
+  <p>While earthquakes can technically happen anywhere, they are far more likely to occur on a major active fault line where two tectonic plates are crashing against each other. An excellent example of this is the San Andreas fault in California</p>
+</div>
+</section>
+
+<section id="pg3">
+<div class="container-fluid bg-3 text-center">
+  <h2 class="margin">Damages</h2>
+  <h3>Past Earthquake Stats</h3>
+ <div class="table-responsive">
+ 
+ <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align:center;" scope="col">Year</th>
+      <th style="text-align:center;" scope="col">Location</th>
+      <th style="text-align:center;" scope="col">Damages($)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align:center;" scope="row">1655</th>
+      <td>Valdivia, Chile</td>
+      <td>550 mil</td>
+    </tr>
+    <tr>
+      <th style="text-align:center;" scope="row">1964</th>
+      <td> Prince William Sound, Alaska</td>
+      <td>311 mil</td>
+    </tr>
+    <tr>
+      <th style="text-align:center;" scope="row">2004</th>
+      <td>Sumatra, Indonesia</td>
+      <td>1.5 bil</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+<a class="btn btn-primary" href="https://www.theguardian.com/world/2011/mar/11/10-most-powerful-earthquakes-history" role="button">source</a>
+</div>
+</section>
+
+<section id="pg4">
+<div class="container-fluid page-4 text-center">
+  <h2 class="margin">About</h2>
+		<h3>What to do?</h3>
+		<ul style="text-align:left;">
+		<li>DROP where you are, onto your hands and knees. This position protects you from being knocked down and also allows you to stay low and crawl to shelter if nearby.</li>
+		<li>COVER your head and neck with one arm and hand. If a sturdy table or desk is nearby, crawl underneath it for shelter.
+		If no shelter is nearby, crawl next to an interior wall (away from windows). Stay on your knees; bend over to protect vital organs</li>
+		<li>HOLD ON until shaking stops. Under shelter: hold on to it with one hand; be ready to move with your shelter if it shifts
+			No shelter: hold on to your head and neck with both arms and hands.</li>
+		</ul>
+		<a class="btn btn-primary" href="https://www.earthquakecountry.org/step5/" role="button">source</a>
+</div>
+</section>
+
+<section id="pg5">
+<div class="container-fluid page-1 text-center">
+	<h2 class="margin">Questions? Contact Us!</h2>
+	<div class="row">
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-6">
+	<form>
+  <div class="form-group">
+    <label for="UserEmail1">Email address</label>
+    <input type="email" class="form-control" id="UserEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="UserPassword1">Password</label>
+    <input type="password" class="form-control" id="UserPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="Usertextarea1">Comments</label>
+    <textarea class="form-control" id="Usertextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+	</div>
+	<div class="col-md-3">
+	</div>
+	</div>
+</div>
+</section>
+		
+<footer class="container-fluid page-2 text-center">
+  <p>Bootstrap Page By <a class="btn btn-success" href="#" role="button">Kyle Fedalen</a></p>  
+  <p>Credit to <a class="btn btn-primary" href="https://www.w3schools.com" role="button">www.w3schools.com</a></p>  
+</footer>
+	
+</body>
+</html>
+
+
+
+
+
