@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>JS Snake</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body onload = "drawRect();drawRect2();">
+
+<h1>JavaScript Project</h1>
+<h2>Snake Game Program</h2>
+<p>this is my javascript snake game project</p>
+
+<button type="button" onclick="drawRectFromBtn(getTF())">
+Click me to draw boxes on canvas.</button>
+
+<br>
+
+<canvas id="c1" width="608" height="608" style="border:solid 1px #000000;"></canvas>
+<br>
+
+
+
+
+<script type="application/javascript">
+
+
+
+
+var c1 = document.getElementById('c1');
+var c1_context = c1.getContext('2d');
+
+
+let width = 0;//max width = 12
+let height = 0;//max height = 12
+let boxsize = 32;//grid box unit size
+
+let snk_len = 1;
+
+let pos1 = 0;
+let pos2 = 0;
+
+
+let xpos1 = 0;
+let ypos1 = 0;
+
+
+function drawRect(){
+
+	c1_context.fillStyle = 'rgba(0, 0, 200, 0.5)';
+	c1_context.fillRect(100, 100, 50, 50);
+	c1_context.fillStyle = 'rgba(300, 0, 200, 0.5)';
+	c1_context.fillRect(300, 100, 50, 50);
+	
+}
+
+
+
+function drawbox(pos1,pos2,boxsize){
+	c1_context.fillStyle = 'rgba(0, 255, 0, 0.5)';
+	c1_context.fillRect(pos1, pos2, boxsize, boxsize);
+
+}
+
+function drawRectFromBtn(tf){
+	
+	if(width < 12){
+		if(tf == true){
+		c1_context.fillStyle = 'rgba(100, 0, 100, 0.5)';
+		c1_context.fillRect(xpos1, ypos1, 50, 50);
+		xpos1 = xpos1 + 50;
+		width++;
+		}else{
+		c1_context.fillStyle = 'rgba(0, 255, 0, 0.5)';
+		c1_context.fillRect(xpos1, ypos1, 50, 50);
+		xpos1 = xpos1 + 50;
+		width++;
+		}
+	}else{
+		ypos1 = ypos1 + 50;
+		xpos1 = 0;
+		width = 0;
+	}
+	
+	
+
+}
+function randnum(max){
+	return (Math.floor(Math.random() * Math.floor(max))==0);
+    
+}
+
+function onoff(){
+	if(width%2 == 0){
+		c1_context.fillStyle = 'rgba(100, 0, 100, 0.5)';
+		c1_context.fillRect(xpos1, ypos1, 50, 50);
+		xpos1 = xpos1 + 50;
+		width++;
+		
+	}else{
+		c1_context.fillStyle = 'rgba(0, 255, 0, 0.5)';
+		c1_context.fillRect(xpos1, ypos1, 50, 50);
+		xpos1 = xpos1 + 50;
+		width++;
+	}
+
+}
+
+
+function getTF(){
+	tf = null;
+	x = randnum(2);
+    if(x==1){
+	
+    tf = true;
+	
+    }else{
+    tf = false;
+    }
+	return tf;
+}
+
+</script>
+ </body></html>

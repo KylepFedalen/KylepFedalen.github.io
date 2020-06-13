@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Example</h1>
+<h2>Coin Flip Program</h2>
+<p>every click of the button gives either a heads or tails result.</p>
+<button type="button"
+onclick="document.getElementById('coin').innerHTML = flip()">
+Click me to display Coin Result.</button>
+
+<p id="coin"></p>
+
+</body>
+<script>
+function randnum(max){
+	return (Math.floor(Math.random() * Math.floor(max))==0);
+    
+}
+function flip(){
+	x = randnum(2);
+    if(x==1){
+    return "heads"+" : "+x;
+    }else{
+    return "tails"+" : "+x;
+    }
+}
+</script>
+</html> 

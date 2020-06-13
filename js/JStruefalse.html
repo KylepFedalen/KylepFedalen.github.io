@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>JS Snake</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body onload = "drawRect();drawRect2();">
+
+<h1>JavaScript Project</h1>
+<h2>Snake Game Program</h2>
+<p>this is my javascript snake game project</p>
+
+<button type="button" onclick="document.getElementById('coin').innerHTML = flip()">
+Click me to display Coin Result.</button>
+
+<p id="coin">none</p>
+
+<br>
+
+<canvas id="c1" width="608" height="608" style="border:solid 1px #000000;"></canvas>
+<br>
+
+
+
+
+<script type="application/javascript">
+var c1 = document.getElementById('c1');
+var c1_context = c1.getContext('2d');
+
+let xpos1 = 100;
+let ypos1 = 200;
+let xpos2 = 300;
+let ypos2 = 200;
+
+function drawRect(){
+	
+	
+	
+	
+	c1_context.fillStyle = 'rgba(0, 0, 200, 0.5)';
+	c1_context.fillRect(100, 100, 50, 50);
+	c1_context.fillStyle = 'rgba(300, 0, 200, 0.5)';
+	c1_context.fillRect(300, 100, 50, 50);
+	
+}
+
+function drawRectFromBtn(tf){
+	
+	
+	
+	if(tf == true){
+		c1_context.fillStyle = 'rgba(100, 0, 100, 0.5)';
+		c1_context.fillRect(xpos1, ypos1, 50, 50);
+		xpos1 = xpos1 + 10;
+		ypos1 = ypos1 + 10;
+	}else{
+		c1_context.fillStyle = 'rgba(0, 255, 0, 0.5)';
+		c1_context.fillRect(xpos2, ypos2, 50, 50);
+		xpos2 = xpos2 - 10;
+		ypos2 = ypos2 + 10;
+	}
+
+}
+
+
+function randnum(max){
+	return (Math.floor(Math.random() * Math.floor(max))==0);
+    
+}
+function flip(){
+	
+	x = randnum(2);
+    if(x==1){
+	
+    return "heads"+" : "+x;
+	
+    }else{
+    return "tails"+" : "+x;
+    }
+}
+function getTF(){
+	tf = null;
+	x = randnum(2);
+    if(x==1){
+	
+    tf = true;
+	
+    }else{
+    tf = false;
+    }
+	return tf;
+}
+
+</script>
+ </body></html>
