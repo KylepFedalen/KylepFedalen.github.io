@@ -65,8 +65,7 @@
       </div>
       <div style="margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; margin-top: -23px;"
         class="container-fluid bg-3 text-center"><br>
-        <div class="col-sm-2"> </div>
-        
+        <div class="col-sm-1"> </div>
         <div style="background: rgba(103, 128, 159, .3);border-radius:25px;height:100%;"
 
           class="col-sm-8">
@@ -81,7 +80,7 @@
             programming and will continue to learn and improve throughout my
             carrier.</p>
         </div>
-        <div class="col-sm-2"> </div>
+        <div class="col-sm-1"> </div>
       </div>
       <div class="container-fluid bg-3 text-center">
         <h3>My Work</h3>

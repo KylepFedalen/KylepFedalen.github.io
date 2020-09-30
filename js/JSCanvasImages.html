@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>JS Canvas Image Usage Test</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<p>Image to use:</p>
+<img id="scream" width="220" height="277" src="jspics/Apple_01.png" alt="The Scream">
+
+<p>Canvas:</p>
+<canvas id="myCanvas" width="240" height="297" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("scream");
+  ctx.drawImage(img, 10, 10,50,50);
+}
+</script>
+
+</body>
+</html>
