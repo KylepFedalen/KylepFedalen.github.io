@@ -64,8 +64,9 @@
         </div>
       </div>
       <div style="margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; margin-top: -23px;"
+
         class="container-fluid bg-3 text-center"><br>
-        <div class="col-sm-1"> </div>
+        <div class="col-sm-2"> </div>
         <div style="background: rgba(103, 128, 159, .3);border-radius:25px;height:100%;"
 
           class="col-sm-8">
@@ -80,7 +81,7 @@
             programming and will continue to learn and improve throughout my
             carrier.</p>
         </div>
-        <div class="col-sm-1"> </div>
+        <div class="col-sm-2"> </div>
       </div>
       <div class="container-fluid bg-3 text-center">
         <h3>My Work</h3>
@@ -137,13 +138,14 @@
                 <a class="info" href="Cpluspluscontent.html">Go There</a> </div>
             </div>
           </div>
-          <div class="col-md-3" style="height:20em;display:none">
-            <div class="hovereffect"> <img class="img-responsive" src="#" style="height:20em;"
+          <br>
+          <div class="col-md-3" style="height:20em;">
+            <div class="hovereffect"> <img class="img-responsive" src="pics/aaapic.jpg"
 
-                alt="">
+                style="height:20em;" alt="">
               <div class="overlay">
-                <h2>PlaceHolder</h2>
-                <a class="info" href="#">link here</a> </div>
+                <h2>My Academic Awards</h2>
+                <a class="info" href="Awards.html">Go There</a> </div>
             </div>
           </div>
           <div class="col-md-3" style="height:20em;display:none">
@@ -177,5 +179,6 @@
           role="button">www.w3schools.com</a></p>
       <p>Contact Info: kylepfedalen@gmail.com</p>
     </footer>
+    
   </body>
 </html>
