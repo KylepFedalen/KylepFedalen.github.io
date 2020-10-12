@@ -140,7 +140,7 @@
           </div>
           <br>
           <div class="col-md-3" style="height:20em;">
-            <div class="hovereffect"> <img class="img-responsive" src="pics/aaapic.jpg"
+            <div class="hovereffect"> <img class="img-responsive" src="pics/aaaPic.jpg"
 
                 style="height:20em;" alt="">
               <div class="overlay">
@@ -179,6 +179,5 @@
           role="button">www.w3schools.com</a></p>
       <p>Contact Info: kylepfedalen@gmail.com</p>
     </footer>
-    
   </body>
 </html>
